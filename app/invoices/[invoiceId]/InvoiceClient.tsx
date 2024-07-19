@@ -2,13 +2,13 @@
 
 import Link from "next/link";
 
-import { Item } from "@prisma/client";
-import { SafeInvoice } from "@/types";
+import { Item } from ".prisma/client";
+import { SafeInvoice } from "../../../types";
 
-import { ArrowLeft } from "@/assets/icons";
-import InvoiceHead from "@/components/invoice/InvoiceHead";
-import InvoiceInfo from "@/components/invoice/InvoiceInfo";
-import InvoiceActionButtons from "@/components/invoice/InvoiceActionButtons";
+import { ArrowLeft } from "../../../assets/icons";
+import InvoiceHead from "../../../components/invoice/InvoiceHead";
+import InvoiceInfo from "../../../components/invoice/InvoiceInfo";
+import InvoiceActionButtons from "../../../components/invoice/InvoiceActionButtons";
 
 interface InvoiceClientProps {
   invoice: SafeInvoice & { items: Item[] };
