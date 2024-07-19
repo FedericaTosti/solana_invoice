@@ -33,17 +33,9 @@ export const metadata = {
     description: "Invoice solana",
 
     type: "website",
-    // locale: "en_US",
-    siteName: "Invoice app",
+
+    siteName: "Invoice solana",
   },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "Invoice app",
-  //   description: "Invoice App helps you to track your invoices.",
-  //   images: [
-  //     // "https://github.com/JaneMoroz/invoice-app/blob/main/images/home-dark.jpg?raw=true",
-  //   ],
-  // },
 
   robots: {
     index: false,
